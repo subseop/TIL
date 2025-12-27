@@ -52,7 +52,7 @@
 
 - 과적합은 모델의 유연성(Flexibility)이 너무 높아져서, 데이터에 포함된 순수한 패턴뿐만 아니라 데이터의 노이즈까지 패턴으로 인식하고 학습하려고 노력할 때 발생. 마치 시험 범위의 예제를 완벽하게 외웠지만, 새로운 유형의 문제에는 전혀 대처하지 못하는 학생과 같음
 
-![overfitting 그래프](images/overfitting.png)
+![overfitting 그래프](../images/overfitting.png)
 - flexibility가 증가함에 따라 Training MSE는 지속적으로 감소하지만, Test MSE는 일정 수준까지 감소하다가 특정 시점 이후에는 증가하는 U자형 곡선을 보임. Test data가 증가하기 시작하는 지점부터 과적합 발생
 
 - 유연성(Flexibility): 모델의 복잡도를 나타냄. 유연성이 높아지면 학습 데이터에 더 잘 맞출 수 있음
@@ -63,9 +63,9 @@
 - 분류 문제에서 모델의 성능을 평가하기 위해 사용되는 지표. 특히 불균형 데이터셋이나 특정 클래스의 예측이 중요할 때 사용
 
 - 민감도(Sensitivity): 실제 긍정 클래스 중 모델이 정확하게 긍정으로 분류한 비율
-![sensitivity 공식](images/sensitivity.png)
+![sensitivity 공식](../images/sensitivity.png)
 
 - 특이도(Specificity): 실제 부정 클래스 중 모델이 정확하게 부정으로 분류한 비율
-![specificity 공식](images/specificity.png)
+![specificity 공식](../images/specificity.png)
 
 - 응용 분야: 의료 분야(질병 진단), 금융 분야(사기 거래 탐지, 신용 불량 예측)등에서 한쪽 오류(FP, FN)가 심각한 결과를 초래할 때 중요하게 사용
